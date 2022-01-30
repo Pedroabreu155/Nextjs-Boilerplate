@@ -4,12 +4,13 @@ import { Main } from './index';
 
 describe('<Main/>', () => {
   it('should render a heading', () => {
-    render(<Main />);
+    const { container } = render(<Main />);
 
     expect(
       screen.getByRole('heading', {
         name: /react avançado/i,
       }),
     ).toBeInTheDocument();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
