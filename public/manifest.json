@@ -1,0 +1,16 @@
+{
+  "name": "Nextjs Boilerplate - Typescrip and Styled Components",
+  "short_name": "Nextjs Boilerplate",
+  "icons": [
+    {
+      "src": "/images/favicon.ico",
+      "sizes": "256x256",
+      "type": "image/svg"
+    }
+  ],
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

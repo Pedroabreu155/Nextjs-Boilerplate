@@ -10,6 +10,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Boilerplate Nextjs</title>
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link rel="apple-touch-icon" href="/images/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#06092B" />
         <meta
           name="description"
           content="Project starter to work with Nextjs and Styled-Components"
